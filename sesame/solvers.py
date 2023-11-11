@@ -16,6 +16,7 @@ from .jacobian import getJ
 
 import logging
 # logging.basicConfig(level=logging.DEBUG, format='%(levelname)s: %(message)s')
+logging.basicConfig(level=logging.CRITICAL)
 
 __all__ = ['solve', 'IVcurve']
 
