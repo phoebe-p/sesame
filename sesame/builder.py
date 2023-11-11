@@ -12,6 +12,7 @@ from . import utils
 
 import logging
 # logging.basicConfig(level=logging.DEBUG, format='%(levelname)s: %(message)s')
+logging.basicConfig(level=logging.CRITICAL)
 
 # named tuple of the characteristics of a defect
 defect = namedtuple('defect', ['sites', 'location', \
